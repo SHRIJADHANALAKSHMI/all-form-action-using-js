@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form practice</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <form class="form" id="userForm">
+            <input type="text" id="name" placeholder="enter your name"><br>
+            <input type="text" id="college" placeholder="enter your college name:"><br>
+            <input type="number" id="age" placeholder="enter your age"><br>
+            
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            
+            <input type="radio" id="owntransport" name="transport" value="owntransport">
+            <label for="owntransport">Own Transport</label>
+            <input type="radio" id="publictransport" name="transport" value="publictransport">
+            <label for="publictransport">Public Transport</label><br>
+            <input type="radio" id="collegebus" name="transport" value="collegebus">
+            <label for="collegebus">College Bus</label><br>
+            
+            <p>do you own a laptop?</p>
+            <input type="radio" id="yes" name="laptop" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="laptop" value="no">
+            <label for="no">No</label><br>
+            
+            <p>if own transport:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+            <label for="vehicle1"> I have a bike or scooter</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            
+            <input type="email" id="email" placeholder="enter your email"><br>
+            <input type="password" id="password" placeholder="enter your password"><br>
+            
+            <label for="cars">choose your course:</label>
+            <select id="cars">
+                <option value="bca">BCA</option>
+                <option value="bsc">BSC</option>
+                <option value="bcom">BCOM</option>
+                <option value="ba">BA</option>
+                <option value="btech">BTECH</option>
+                <option value="other">Other</option>
+            </select><br>
+            
+            <input type="text" id="comment" placeholder="mention your comment"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <table id="datatable" border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>College</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Course</th>
+                    <th>Comment</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+
+        <script src="form.js"></script>
+   </body>
+</html>
