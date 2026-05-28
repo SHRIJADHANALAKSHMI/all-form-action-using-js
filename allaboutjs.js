@@ -10,7 +10,7 @@ console.log(mixedArray);
 console.log(mixedArray[0]);
 console.log(mixedArray[1]);
 
-console.log("------------------");
+console.log("-------------------");
 console.log("find the length of an array.");
 let numbers=[10,20,30,40,50];
 console.log(numbers);
