@@ -4,6 +4,7 @@ textbtn.addEventListener("click",()=>{
     let title=document.getElementById("title");
     title.textContent="Text changed done : hello!";
 });
+//change color
 let colorbtn=document.getElementById("colorBtn");
 colorbtn.addEventListener("click",()=>{
     let title=document.getElementById("title");
