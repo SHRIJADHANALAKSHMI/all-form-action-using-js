@@ -8,7 +8,7 @@ body {
     background-color: #f4f4f9;
     margin: 0;
 }
-
+//form css
 .form {
     background: rgb(240, 210, 210);
     padding: 2rem;
@@ -24,7 +24,7 @@ input {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    box-sizing: border-box; /* Ensures padding doesn't affect width we use this */
 }
 
 button {
